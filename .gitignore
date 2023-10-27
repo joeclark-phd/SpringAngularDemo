@@ -1,3 +1,6 @@
 # Project exclude paths
 /frontend/.angular/
 /frontend/node_modules/karma/config.tpl.js
+
+/frontend/dist/
+/frontend/node_modules/

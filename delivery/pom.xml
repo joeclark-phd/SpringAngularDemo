@@ -49,7 +49,7 @@
                 <configuration>
                     <mainClass>dev.marco.demo.backend.SpringAngularDemoApplication</mainClass>
                     <skip>false</skip>
-                    <finalName>MyBeautifulApp-${project.version}</finalName>
+                    <finalName>${project.artifactId}</finalName>
                 </configuration>
             </plugin>
         </plugins>
