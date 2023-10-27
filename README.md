@@ -8,6 +8,8 @@ Marco Molteni's demo [Deploy Angular with Spring Boot in the same executable JAR
 
 - Added `<packaging>war</packaging>` to `/delivery/pom.xml`.
 
+- Modify the main class so it `extends SpringBootServletInitializer`.
+
 - "Hide" the embedded Tomcat dependency by marking it "provided".  I did that by adding the following to `/delivery/pom.xml`:
 
       <dependency>
